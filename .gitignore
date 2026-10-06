@@ -1,0 +1,19 @@
+# This repository contains documentation only.
+*.uasset
+*.umap
+*.uproject
+*.sav
+*.log
+.env
+.env.*
+Content/
+Config/
+Source/
+Plugins/
+Saved/
+Intermediate/
+DerivedDataCache/
+Binaries/
+Build/
+.idea/
+.vscode/
