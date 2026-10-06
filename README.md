@@ -35,6 +35,8 @@ The supplied flow retains the chosen appearance **within the current game sessio
 
 The release targets Unreal Engine 5.8 on Windows desktop. Other engine versions and platforms are outside the current supported scope. New clothing and grooms need compatible meshes, materials and bindings; the creator does not automatically fit arbitrary imported content.
 
+**Automatic clothing import is excluded from V1.** The release includes prepared clothing options and supports manual integration of compatible, already prepared garments. There is no clothing-import button or supported automatic `.mhpkg`-to-FORMA fitting workflow. See the [roadmap](Documentation/ROADMAP.md#after-v1-automatic-clothing-import) for the acceptance criteria for a future importer.
+
 ## Project layout
 
 All project assets are under `/Game/FORMA`:

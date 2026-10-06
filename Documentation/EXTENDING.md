@@ -6,6 +6,8 @@ Add new appearance content through saved child Customizable Objects. Begin with 
 
 ## Add clothing
 
+This is a manual authoring workflow for already prepared garment meshes. Automatic clothing import is excluded from V1; see the [roadmap](ROADMAP.md#after-v1-automatic-clothing-import).
+
 1. Choose a template under `/Game/FORMA/Character/Clothing/Female` or `/Game/FORMA/Character/Clothing/Male` that belongs to the desired Top, Bottom or Shoes group.
 2. Duplicate its garment Customizable Object and give it a unique `CO_` name and a unique option name. Retain the template's parent-object/group assignment for the same branch and slot.
 3. Assign a garment skeletal mesh fitted to the corresponding FORMA body. Match its skeleton and preserve the weight, morph and LOD data needed by your garment.
